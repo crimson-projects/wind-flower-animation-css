@@ -1,0 +1,1396 @@
+body {
+    background: #015238;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .dandelion {
+    position: relative;
+    height: 65vh;
+    max-height: 65vw;
+    aspect-ratio: 1/1;
+    position: relative;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='1' height='1' viewBox='0 0 1 1'><g fill='none' stroke='%23ffffff' stroke-width='3'><path d='M 0.5 0 C 0.4475 0.277 0.532 0.7205 0.5 1' vector-effect='non-scaling-stroke'/></g></svg>");
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .head {
+    height: 30vh;
+    max-height: 30vw;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(15deg);
+  }
+  
+  .seed-wrapper.outter {
+    width: 20vh;
+    max-width: 20vw;
+    aspect-ratio: 1/1;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+  }
+  .seed-wrapper.outter:nth-child(4n) .seed:before {
+    transform: translateX(-50%) rotate(4deg);
+  }
+  .seed-wrapper.outter:nth-child(4n) .seed:after {
+    transform: rotateY(180deg);
+  }
+  .seed-wrapper.outter:nth-child(2n-1) {
+    width: 18vh;
+    max-width: 18vw;
+  }
+  .seed-wrapper.outter:nth-child(3n-2) {
+    width: 12vh;
+    max-width: 12vw;
+  }
+  .seed-wrapper.outter:nth-child(5n-3) {
+    width: 14vh;
+    max-width: 14vw;
+  }
+  .seed-wrapper.outter:nth-child(8n-4) {
+    width: 8vh;
+    max-width: 8vw;
+  }
+  .seed-wrapper.outter:nth-child(9n-5) {
+    width: 9vh;
+    max-width: 9vw;
+  }
+  
+  .seed-wrapper.inner {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .seed {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: center bottom;
+  }
+  .seed:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 5px;
+    height: 3vh;
+    max-height: 3vw;
+    left: 50%;
+    transform: translateX(-50%) rotate(-3deg);
+    background-color: white;
+    border-radius: 57% 43% 44% 56%/67% 74% 26% 33%;
+    transform-origin: center bottom;
+  }
+  .seed:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='1' height='1' viewBox='0 0 1 1'><g fill='none' stroke='%23ffffff' stroke-width='1'><path d='M 0.5 0 C 0.579 0.374 0.532 0.7205 0.5 1' vector-effect='non-scaling-stroke'/></g></svg>");
+    background-size: cover;
+  }
+  
+  .seed-wrapper:nth-child(1) .seed {
+    transform: rotate(9deg);
+  }
+  
+  .seed-wrapper:nth-child(2) .seed {
+    transform: rotate(18deg);
+  }
+  
+  .seed-wrapper:nth-child(3) .seed {
+    transform: rotate(27deg);
+  }
+  
+  .seed-wrapper:nth-child(4) .seed {
+    transform: rotate(36deg);
+  }
+  
+  .seed-wrapper:nth-child(5) .seed {
+    transform: rotate(45deg);
+  }
+  
+  .seed-wrapper:nth-child(6) .seed {
+    transform: rotate(54deg);
+  }
+  
+  .seed-wrapper:nth-child(7) .seed {
+    transform: rotate(63deg);
+  }
+  
+  .seed-wrapper:nth-child(8) .seed {
+    transform: rotate(72deg);
+  }
+  
+  .seed-wrapper:nth-child(9) .seed {
+    transform: rotate(81deg);
+  }
+  
+  .seed-wrapper:nth-child(10) .seed {
+    transform: rotate(90deg);
+  }
+  
+  .seed-wrapper:nth-child(11) .seed {
+    transform: rotate(99deg);
+  }
+  
+  .seed-wrapper:nth-child(12) .seed {
+    transform: rotate(108deg);
+  }
+  
+  .seed-wrapper:nth-child(13) .seed {
+    transform: rotate(117deg);
+  }
+  
+  .seed-wrapper:nth-child(14) .seed {
+    transform: rotate(126deg);
+  }
+  
+  .seed-wrapper:nth-child(15) .seed {
+    transform: rotate(135deg);
+  }
+  
+  .seed-wrapper:nth-child(16) .seed {
+    transform: rotate(144deg);
+  }
+  
+  .seed-wrapper:nth-child(17) .seed {
+    transform: rotate(153deg);
+  }
+  
+  .seed-wrapper:nth-child(18) .seed {
+    transform: rotate(162deg);
+  }
+  
+  .seed-wrapper:nth-child(19) .seed {
+    transform: rotate(171deg);
+  }
+  
+  .seed-wrapper:nth-child(20) .seed {
+    transform: rotate(180deg);
+  }
+  
+  .seed-wrapper:nth-child(21) .seed {
+    transform: rotate(189deg);
+  }
+  
+  .seed-wrapper:nth-child(22) .seed {
+    transform: rotate(198deg);
+  }
+  
+  .seed-wrapper:nth-child(23) .seed {
+    transform: rotate(207deg);
+  }
+  
+  .seed-wrapper:nth-child(24) .seed {
+    transform: rotate(216deg);
+  }
+  
+  .seed-wrapper:nth-child(25) .seed {
+    transform: rotate(225deg);
+  }
+  
+  .seed-wrapper:nth-child(26) .seed {
+    transform: rotate(234deg);
+  }
+  
+  .seed-wrapper:nth-child(27) .seed {
+    transform: rotate(243deg);
+  }
+  
+  .seed-wrapper:nth-child(28) .seed {
+    transform: rotate(252deg);
+  }
+  
+  .seed-wrapper:nth-child(29) .seed {
+    transform: rotate(261deg);
+  }
+  
+  .seed-wrapper:nth-child(30) .seed {
+    transform: rotate(270deg);
+  }
+  
+  .seed-wrapper:nth-child(31) .seed {
+    transform: rotate(279deg);
+  }
+  
+  .seed-wrapper:nth-child(32) .seed {
+    transform: rotate(288deg);
+  }
+  
+  .seed-wrapper:nth-child(33) .seed {
+    transform: rotate(297deg);
+  }
+  
+  .seed-wrapper:nth-child(34) .seed {
+    transform: rotate(306deg);
+  }
+  
+  .seed-wrapper:nth-child(35) .seed {
+    transform: rotate(315deg);
+  }
+  
+  .seed-wrapper:nth-child(36) .seed {
+    transform: rotate(324deg);
+  }
+  
+  .seed-wrapper:nth-child(37) .seed {
+    transform: rotate(333deg);
+  }
+  
+  .seed-wrapper:nth-child(38) .seed {
+    transform: rotate(342deg);
+  }
+  
+  .seed-wrapper:nth-child(39) .seed {
+    transform: rotate(351deg);
+  }
+  
+  .seed-wrapper:nth-child(40) .seed {
+    transform: rotate(360deg);
+  }
+  
+  .feather {
+    width: 35%;
+    aspect-ratio: 1/1;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='1' height='1' viewBox='0 0 1 1'><g fill='none' stroke='%23ffffff' stroke-width='1'><path d='M 0.5 0 C 0.324 0.293 0.422 0.793 0.5 1' vector-effect='non-scaling-stroke'/></g></svg>");
+    background-size: cover;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform-origin: center bottom;
+  }
+  
+  .feather:nth-child(1) {
+    transform: translateX(-50%) rotate(-87deg);
+  }
+  
+  .feather:nth-child(2) {
+    transform: translateX(-50%) rotate(-69deg);
+  }
+  
+  .feather:nth-child(3) {
+    transform: translateX(-50%) rotate(-51deg);
+  }
+  
+  .feather:nth-child(4) {
+    transform: translateX(-50%) rotate(-33deg);
+  }
+  
+  .feather:nth-child(5) {
+    transform: translateX(-50%) rotate(-15deg);
+  }
+  
+  .feather:nth-child(6) {
+    transform: translateX(-50%) rotate(3deg);
+  }
+  
+  .feather:nth-child(7) {
+    transform: translateX(-50%) rotateX(180deg) rotateZ(76deg);
+  }
+  
+  .feather:nth-child(8) {
+    transform: translateX(-50%) rotateX(180deg) rotateZ(94deg);
+  }
+  
+  .feather:nth-child(9) {
+    transform: translateX(-50%) rotateX(180deg) rotateZ(112deg);
+  }
+  
+  .feather:nth-child(10) {
+    transform: translateX(-50%) rotateX(180deg) rotateZ(130deg);
+  }
+  
+  .feather:nth-child(11) {
+    transform: translateX(-50%) rotateX(180deg) rotateZ(148deg);
+  }
+  
+  .feather:nth-child(12) {
+    transform: translateX(-50%) rotateX(180deg) rotateZ(166deg);
+  }
+  
+  .seed-wrapper.outter:nth-child(1) {
+    animation: fly-away 6.9s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 0.3s;
+  }
+  .seed-wrapper.outter:nth-child(1) .inner {
+    animation: fly-up 3.2s ease-in-out forwards;
+    animation-delay: 0.3s;
+  }
+  .seed-wrapper.outter:nth-child(1) .seed {
+    animation: rotate 1.6s ease-out forwards;
+    animation-delay: 0.3s;
+  }
+  
+  .seed-wrapper.outter:nth-child(1):nth-child(2n-1) {
+    animation: fly-away 5.9s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 0.3s;
+  }
+  .seed-wrapper.outter:nth-child(1):nth-child(2n-1) .inner {
+    animation: fly-up 3.1s ease-in-out forwards;
+    animation-delay: 0.3s;
+  }
+  .seed-wrapper.outter:nth-child(1):nth-child(2n-1) .seed {
+    animation: rotate 1.6s ease-out forwards;
+    animation-delay: 0.3s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(1) {
+    animation: fly-away 7s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 0.5s;
+  }
+  .seed-wrapper.outter:nth-last-child(1) .inner {
+    animation: fly-up 3.65s ease-in-out forwards;
+    animation-delay: 0.5s;
+  }
+  .seed-wrapper.outter:nth-last-child(1) .seed {
+    animation: rotate-rev 1.1s ease-out forwards;
+    animation-delay: 0.5s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(1) {
+    animation: fly-away 7.4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 0.6s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(1) .inner {
+    animation: fly-up 3.15s ease-in-out forwards;
+    animation-delay: 0.6s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(1) .seed {
+    animation: rotate-rev 1.1s ease-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  .seed-wrapper.outter:nth-child(2) {
+    animation: fly-away 6.8s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 0.6s;
+  }
+  .seed-wrapper.outter:nth-child(2) .inner {
+    animation: fly-up 3.4s ease-in-out forwards;
+    animation-delay: 0.6s;
+  }
+  .seed-wrapper.outter:nth-child(2) .seed {
+    animation: rotate 1.7s ease-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  .seed-wrapper.outter:nth-child(2):nth-child(2n-1) {
+    animation: fly-away 5.8s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 0.6s;
+  }
+  .seed-wrapper.outter:nth-child(2):nth-child(2n-1) .inner {
+    animation: fly-up 3.2s ease-in-out forwards;
+    animation-delay: 0.6s;
+  }
+  .seed-wrapper.outter:nth-child(2):nth-child(2n-1) .seed {
+    animation: rotate 1.7s ease-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(2) {
+    animation: fly-away 6.8s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 0.8s;
+  }
+  .seed-wrapper.outter:nth-last-child(2) .inner {
+    animation: fly-up 3.8s ease-in-out forwards;
+    animation-delay: 0.8s;
+  }
+  .seed-wrapper.outter:nth-last-child(2) .seed {
+    animation: rotate-rev 1.2s ease-out forwards;
+    animation-delay: 0.8s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(2) {
+    animation: fly-away 7.3s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(2) .inner {
+    animation: fly-up 3.3s ease-in-out forwards;
+    animation-delay: 1s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(2) .seed {
+    animation: rotate-rev 1.2s ease-out forwards;
+    animation-delay: 1s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3) {
+    animation: fly-away 6.7s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 0.9s;
+  }
+  .seed-wrapper.outter:nth-child(3) .inner {
+    animation: fly-up 3.6s ease-in-out forwards;
+    animation-delay: 0.9s;
+  }
+  .seed-wrapper.outter:nth-child(3) .seed {
+    animation: rotate 1.8s ease-out forwards;
+    animation-delay: 0.9s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3):nth-child(2n-1) {
+    animation: fly-away 5.7s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 0.9s;
+  }
+  .seed-wrapper.outter:nth-child(3):nth-child(2n-1) .inner {
+    animation: fly-up 3.3s ease-in-out forwards;
+    animation-delay: 0.9s;
+  }
+  .seed-wrapper.outter:nth-child(3):nth-child(2n-1) .seed {
+    animation: rotate 1.8s ease-out forwards;
+    animation-delay: 0.9s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(3) {
+    animation: fly-away 6.6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1.1s;
+  }
+  .seed-wrapper.outter:nth-last-child(3) .inner {
+    animation: fly-up 3.95s ease-in-out forwards;
+    animation-delay: 1.1s;
+  }
+  .seed-wrapper.outter:nth-last-child(3) .seed {
+    animation: rotate-rev 1.3s ease-out forwards;
+    animation-delay: 1.1s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(3) {
+    animation: fly-away 7.2s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1.4s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(3) .inner {
+    animation: fly-up 3.45s ease-in-out forwards;
+    animation-delay: 1.4s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(3) .seed {
+    animation: rotate-rev 1.3s ease-out forwards;
+    animation-delay: 1.4s;
+  }
+  
+  .seed-wrapper.outter:nth-child(4) {
+    animation: fly-away 6.6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1.2s;
+  }
+  .seed-wrapper.outter:nth-child(4) .inner {
+    animation: fly-up 3.8s ease-in-out forwards;
+    animation-delay: 1.2s;
+  }
+  .seed-wrapper.outter:nth-child(4) .seed {
+    animation: rotate 1.9s ease-out forwards;
+    animation-delay: 1.2s;
+  }
+  
+  .seed-wrapper.outter:nth-child(4):nth-child(2n-1) {
+    animation: fly-away 5.6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1.2s;
+  }
+  .seed-wrapper.outter:nth-child(4):nth-child(2n-1) .inner {
+    animation: fly-up 3.4s ease-in-out forwards;
+    animation-delay: 1.2s;
+  }
+  .seed-wrapper.outter:nth-child(4):nth-child(2n-1) .seed {
+    animation: rotate 1.9s ease-out forwards;
+    animation-delay: 1.2s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(4) {
+    animation: fly-away 6.4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1.4s;
+  }
+  .seed-wrapper.outter:nth-last-child(4) .inner {
+    animation: fly-up 4.1s ease-in-out forwards;
+    animation-delay: 1.4s;
+  }
+  .seed-wrapper.outter:nth-last-child(4) .seed {
+    animation: rotate-rev 1.4s ease-out forwards;
+    animation-delay: 1.4s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(4) {
+    animation: fly-away 7.1s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1.8s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(4) .inner {
+    animation: fly-up 3.6s ease-in-out forwards;
+    animation-delay: 1.8s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(4) .seed {
+    animation: rotate-rev 1.4s ease-out forwards;
+    animation-delay: 1.8s;
+  }
+  
+  .seed-wrapper.outter:nth-child(5) {
+    animation: fly-away 6.5s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1.5s;
+  }
+  .seed-wrapper.outter:nth-child(5) .inner {
+    animation: fly-up 4s ease-in-out forwards;
+    animation-delay: 1.5s;
+  }
+  .seed-wrapper.outter:nth-child(5) .seed {
+    animation: rotate 2s ease-out forwards;
+    animation-delay: 1.5s;
+  }
+  
+  .seed-wrapper.outter:nth-child(5):nth-child(2n-1) {
+    animation: fly-away 5.5s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1.5s;
+  }
+  .seed-wrapper.outter:nth-child(5):nth-child(2n-1) .inner {
+    animation: fly-up 3.5s ease-in-out forwards;
+    animation-delay: 1.5s;
+  }
+  .seed-wrapper.outter:nth-child(5):nth-child(2n-1) .seed {
+    animation: rotate 2s ease-out forwards;
+    animation-delay: 1.5s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(5) {
+    animation: fly-away 6.2s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1.7s;
+  }
+  .seed-wrapper.outter:nth-last-child(5) .inner {
+    animation: fly-up 4.25s ease-in-out forwards;
+    animation-delay: 1.7s;
+  }
+  .seed-wrapper.outter:nth-last-child(5) .seed {
+    animation: rotate-rev 1.5s ease-out forwards;
+    animation-delay: 1.7s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(5) {
+    animation: fly-away 7s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2.2s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(5) .inner {
+    animation: fly-up 3.75s ease-in-out forwards;
+    animation-delay: 2.2s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(5) .seed {
+    animation: rotate-rev 1.5s ease-out forwards;
+    animation-delay: 2.2s;
+  }
+  
+  .seed-wrapper.outter:nth-child(6) {
+    animation: fly-away 6.4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1.8s;
+  }
+  .seed-wrapper.outter:nth-child(6) .inner {
+    animation: fly-up 4.2s ease-in-out forwards;
+    animation-delay: 1.8s;
+  }
+  .seed-wrapper.outter:nth-child(6) .seed {
+    animation: rotate 2.1s ease-out forwards;
+    animation-delay: 1.8s;
+  }
+  
+  .seed-wrapper.outter:nth-child(6):nth-child(2n-1) {
+    animation: fly-away 5.4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 1.8s;
+  }
+  .seed-wrapper.outter:nth-child(6):nth-child(2n-1) .inner {
+    animation: fly-up 3.6s ease-in-out forwards;
+    animation-delay: 1.8s;
+  }
+  .seed-wrapper.outter:nth-child(6):nth-child(2n-1) .seed {
+    animation: rotate 2.1s ease-out forwards;
+    animation-delay: 1.8s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(6) {
+    animation: fly-away 6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2s;
+  }
+  .seed-wrapper.outter:nth-last-child(6) .inner {
+    animation: fly-up 4.4s ease-in-out forwards;
+    animation-delay: 2s;
+  }
+  .seed-wrapper.outter:nth-last-child(6) .seed {
+    animation: rotate-rev 1.6s ease-out forwards;
+    animation-delay: 2s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(6) {
+    animation: fly-away 6.9s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2.6s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(6) .inner {
+    animation: fly-up 3.9s ease-in-out forwards;
+    animation-delay: 2.6s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(6) .seed {
+    animation: rotate-rev 1.6s ease-out forwards;
+    animation-delay: 2.6s;
+  }
+  
+  .seed-wrapper.outter:nth-child(7) {
+    animation: fly-away 6.3s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2.1s;
+  }
+  .seed-wrapper.outter:nth-child(7) .inner {
+    animation: fly-up 4.4s ease-in-out forwards;
+    animation-delay: 2.1s;
+  }
+  .seed-wrapper.outter:nth-child(7) .seed {
+    animation: rotate 2.2s ease-out forwards;
+    animation-delay: 2.1s;
+  }
+  
+  .seed-wrapper.outter:nth-child(7):nth-child(2n-1) {
+    animation: fly-away 5.3s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2.1s;
+  }
+  .seed-wrapper.outter:nth-child(7):nth-child(2n-1) .inner {
+    animation: fly-up 3.7s ease-in-out forwards;
+    animation-delay: 2.1s;
+  }
+  .seed-wrapper.outter:nth-child(7):nth-child(2n-1) .seed {
+    animation: rotate 2.2s ease-out forwards;
+    animation-delay: 2.1s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(7) {
+    animation: fly-away 5.8s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2.3s;
+  }
+  .seed-wrapper.outter:nth-last-child(7) .inner {
+    animation: fly-up 4.55s ease-in-out forwards;
+    animation-delay: 2.3s;
+  }
+  .seed-wrapper.outter:nth-last-child(7) .seed {
+    animation: rotate-rev 1.7s ease-out forwards;
+    animation-delay: 2.3s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(7) {
+    animation: fly-away 6.8s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(7) .inner {
+    animation: fly-up 4.05s ease-in-out forwards;
+    animation-delay: 3s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(7) .seed {
+    animation: rotate-rev 1.7s ease-out forwards;
+    animation-delay: 3s;
+  }
+  
+  .seed-wrapper.outter:nth-child(8) {
+    animation: fly-away 6.2s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2.4s;
+  }
+  .seed-wrapper.outter:nth-child(8) .inner {
+    animation: fly-up 4.6s ease-in-out forwards;
+    animation-delay: 2.4s;
+  }
+  .seed-wrapper.outter:nth-child(8) .seed {
+    animation: rotate 2.3s ease-out forwards;
+    animation-delay: 2.4s;
+  }
+  
+  .seed-wrapper.outter:nth-child(8):nth-child(2n-1) {
+    animation: fly-away 5.2s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2.4s;
+  }
+  .seed-wrapper.outter:nth-child(8):nth-child(2n-1) .inner {
+    animation: fly-up 3.8s ease-in-out forwards;
+    animation-delay: 2.4s;
+  }
+  .seed-wrapper.outter:nth-child(8):nth-child(2n-1) .seed {
+    animation: rotate 2.3s ease-out forwards;
+    animation-delay: 2.4s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(8) {
+    animation: fly-away 5.6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2.6s;
+  }
+  .seed-wrapper.outter:nth-last-child(8) .inner {
+    animation: fly-up 4.7s ease-in-out forwards;
+    animation-delay: 2.6s;
+  }
+  .seed-wrapper.outter:nth-last-child(8) .seed {
+    animation: rotate-rev 1.8s ease-out forwards;
+    animation-delay: 2.6s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(8) {
+    animation: fly-away 6.7s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3.4s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(8) .inner {
+    animation: fly-up 4.2s ease-in-out forwards;
+    animation-delay: 3.4s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(8) .seed {
+    animation: rotate-rev 1.8s ease-out forwards;
+    animation-delay: 3.4s;
+  }
+  
+  .seed-wrapper.outter:nth-child(9) {
+    animation: fly-away 6.1s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2.7s;
+  }
+  .seed-wrapper.outter:nth-child(9) .inner {
+    animation: fly-up 4.8s ease-in-out forwards;
+    animation-delay: 2.7s;
+  }
+  .seed-wrapper.outter:nth-child(9) .seed {
+    animation: rotate 2.4s ease-out forwards;
+    animation-delay: 2.7s;
+  }
+  
+  .seed-wrapper.outter:nth-child(9):nth-child(2n-1) {
+    animation: fly-away 5.1s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2.7s;
+  }
+  .seed-wrapper.outter:nth-child(9):nth-child(2n-1) .inner {
+    animation: fly-up 3.9s ease-in-out forwards;
+    animation-delay: 2.7s;
+  }
+  .seed-wrapper.outter:nth-child(9):nth-child(2n-1) .seed {
+    animation: rotate 2.4s ease-out forwards;
+    animation-delay: 2.7s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(9) {
+    animation: fly-away 5.4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 2.9s;
+  }
+  .seed-wrapper.outter:nth-last-child(9) .inner {
+    animation: fly-up 4.85s ease-in-out forwards;
+    animation-delay: 2.9s;
+  }
+  .seed-wrapper.outter:nth-last-child(9) .seed {
+    animation: rotate-rev 1.9s ease-out forwards;
+    animation-delay: 2.9s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(9) {
+    animation: fly-away 6.6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3.8s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(9) .inner {
+    animation: fly-up 4.35s ease-in-out forwards;
+    animation-delay: 3.8s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(9) .seed {
+    animation: rotate-rev 1.9s ease-out forwards;
+    animation-delay: 3.8s;
+  }
+  
+  .seed-wrapper.outter:nth-child(10) {
+    animation: fly-away 6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3s;
+  }
+  .seed-wrapper.outter:nth-child(10) .inner {
+    animation: fly-up 5s ease-in-out forwards;
+    animation-delay: 3s;
+  }
+  .seed-wrapper.outter:nth-child(10) .seed {
+    animation: rotate 2.5s ease-out forwards;
+    animation-delay: 3s;
+  }
+  
+  .seed-wrapper.outter:nth-child(10):nth-child(2n-1) {
+    animation: fly-away 5s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3s;
+  }
+  .seed-wrapper.outter:nth-child(10):nth-child(2n-1) .inner {
+    animation: fly-up 4s ease-in-out forwards;
+    animation-delay: 3s;
+  }
+  .seed-wrapper.outter:nth-child(10):nth-child(2n-1) .seed {
+    animation: rotate 2.5s ease-out forwards;
+    animation-delay: 3s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(10) {
+    animation: fly-away 5.2s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3.2s;
+  }
+  .seed-wrapper.outter:nth-last-child(10) .inner {
+    animation: fly-up 5s ease-in-out forwards;
+    animation-delay: 3.2s;
+  }
+  .seed-wrapper.outter:nth-last-child(10) .seed {
+    animation: rotate-rev 2s ease-out forwards;
+    animation-delay: 3.2s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(10) {
+    animation: fly-away 6.5s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 4.2s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(10) .inner {
+    animation: fly-up 4.5s ease-in-out forwards;
+    animation-delay: 4.2s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(10) .seed {
+    animation: rotate-rev 2s ease-out forwards;
+    animation-delay: 4.2s;
+  }
+  
+  .seed-wrapper.outter:nth-child(11) {
+    animation: fly-away 5.9s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3.3s;
+  }
+  .seed-wrapper.outter:nth-child(11) .inner {
+    animation: fly-up 5.2s ease-in-out forwards;
+    animation-delay: 3.3s;
+  }
+  .seed-wrapper.outter:nth-child(11) .seed {
+    animation: rotate 2.6s ease-out forwards;
+    animation-delay: 3.3s;
+  }
+  
+  .seed-wrapper.outter:nth-child(11):nth-child(2n-1) {
+    animation: fly-away 4.9s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3.3s;
+  }
+  .seed-wrapper.outter:nth-child(11):nth-child(2n-1) .inner {
+    animation: fly-up 4.1s ease-in-out forwards;
+    animation-delay: 3.3s;
+  }
+  .seed-wrapper.outter:nth-child(11):nth-child(2n-1) .seed {
+    animation: rotate 2.6s ease-out forwards;
+    animation-delay: 3.3s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(11) {
+    animation: fly-away 5s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3.5s;
+  }
+  .seed-wrapper.outter:nth-last-child(11) .inner {
+    animation: fly-up 5.15s ease-in-out forwards;
+    animation-delay: 3.5s;
+  }
+  .seed-wrapper.outter:nth-last-child(11) .seed {
+    animation: rotate-rev 2.1s ease-out forwards;
+    animation-delay: 3.5s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(11) {
+    animation: fly-away 6.4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 4.6s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(11) .inner {
+    animation: fly-up 4.65s ease-in-out forwards;
+    animation-delay: 4.6s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(11) .seed {
+    animation: rotate-rev 2.1s ease-out forwards;
+    animation-delay: 4.6s;
+  }
+  
+  .seed-wrapper.outter:nth-child(12) {
+    animation: fly-away 5.8s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3.6s;
+  }
+  .seed-wrapper.outter:nth-child(12) .inner {
+    animation: fly-up 5.4s ease-in-out forwards;
+    animation-delay: 3.6s;
+  }
+  .seed-wrapper.outter:nth-child(12) .seed {
+    animation: rotate 2.7s ease-out forwards;
+    animation-delay: 3.6s;
+  }
+  
+  .seed-wrapper.outter:nth-child(12):nth-child(2n-1) {
+    animation: fly-away 4.8s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3.6s;
+  }
+  .seed-wrapper.outter:nth-child(12):nth-child(2n-1) .inner {
+    animation: fly-up 4.2s ease-in-out forwards;
+    animation-delay: 3.6s;
+  }
+  .seed-wrapper.outter:nth-child(12):nth-child(2n-1) .seed {
+    animation: rotate 2.7s ease-out forwards;
+    animation-delay: 3.6s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(12) {
+    animation: fly-away 4.8s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3.8s;
+  }
+  .seed-wrapper.outter:nth-last-child(12) .inner {
+    animation: fly-up 5.3s ease-in-out forwards;
+    animation-delay: 3.8s;
+  }
+  .seed-wrapper.outter:nth-last-child(12) .seed {
+    animation: rotate-rev 2.2s ease-out forwards;
+    animation-delay: 3.8s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(12) {
+    animation: fly-away 6.3s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(12) .inner {
+    animation: fly-up 4.8s ease-in-out forwards;
+    animation-delay: 5s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(12) .seed {
+    animation: rotate-rev 2.2s ease-out forwards;
+    animation-delay: 5s;
+  }
+  
+  .seed-wrapper.outter:nth-child(13) {
+    animation: fly-away 5.7s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3.9s;
+  }
+  .seed-wrapper.outter:nth-child(13) .inner {
+    animation: fly-up 5.6s ease-in-out forwards;
+    animation-delay: 3.9s;
+  }
+  .seed-wrapper.outter:nth-child(13) .seed {
+    animation: rotate 2.8s ease-out forwards;
+    animation-delay: 3.9s;
+  }
+  
+  .seed-wrapper.outter:nth-child(13):nth-child(2n-1) {
+    animation: fly-away 4.7s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 3.9s;
+  }
+  .seed-wrapper.outter:nth-child(13):nth-child(2n-1) .inner {
+    animation: fly-up 4.3s ease-in-out forwards;
+    animation-delay: 3.9s;
+  }
+  .seed-wrapper.outter:nth-child(13):nth-child(2n-1) .seed {
+    animation: rotate 2.8s ease-out forwards;
+    animation-delay: 3.9s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(13) {
+    animation: fly-away 4.6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 4.1s;
+  }
+  .seed-wrapper.outter:nth-last-child(13) .inner {
+    animation: fly-up 5.45s ease-in-out forwards;
+    animation-delay: 4.1s;
+  }
+  .seed-wrapper.outter:nth-last-child(13) .seed {
+    animation: rotate-rev 2.3s ease-out forwards;
+    animation-delay: 4.1s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(13) {
+    animation: fly-away 6.2s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5.4s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(13) .inner {
+    animation: fly-up 4.95s ease-in-out forwards;
+    animation-delay: 5.4s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(13) .seed {
+    animation: rotate-rev 2.3s ease-out forwards;
+    animation-delay: 5.4s;
+  }
+  
+  .seed-wrapper.outter:nth-child(14) {
+    animation: fly-away 5.6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 4.2s;
+  }
+  .seed-wrapper.outter:nth-child(14) .inner {
+    animation: fly-up 5.8s ease-in-out forwards;
+    animation-delay: 4.2s;
+  }
+  .seed-wrapper.outter:nth-child(14) .seed {
+    animation: rotate 2.9s ease-out forwards;
+    animation-delay: 4.2s;
+  }
+  
+  .seed-wrapper.outter:nth-child(14):nth-child(2n-1) {
+    animation: fly-away 4.6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 4.2s;
+  }
+  .seed-wrapper.outter:nth-child(14):nth-child(2n-1) .inner {
+    animation: fly-up 4.4s ease-in-out forwards;
+    animation-delay: 4.2s;
+  }
+  .seed-wrapper.outter:nth-child(14):nth-child(2n-1) .seed {
+    animation: rotate 2.9s ease-out forwards;
+    animation-delay: 4.2s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(14) {
+    animation: fly-away 4.4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 4.4s;
+  }
+  .seed-wrapper.outter:nth-last-child(14) .inner {
+    animation: fly-up 5.6s ease-in-out forwards;
+    animation-delay: 4.4s;
+  }
+  .seed-wrapper.outter:nth-last-child(14) .seed {
+    animation: rotate-rev 2.4s ease-out forwards;
+    animation-delay: 4.4s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(14) {
+    animation: fly-away 6.1s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5.8s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(14) .inner {
+    animation: fly-up 5.1s ease-in-out forwards;
+    animation-delay: 5.8s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(14) .seed {
+    animation: rotate-rev 2.4s ease-out forwards;
+    animation-delay: 5.8s;
+  }
+  
+  .seed-wrapper.outter:nth-child(15) {
+    animation: fly-away 5.5s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 4.5s;
+  }
+  .seed-wrapper.outter:nth-child(15) .inner {
+    animation: fly-up 6s ease-in-out forwards;
+    animation-delay: 4.5s;
+  }
+  .seed-wrapper.outter:nth-child(15) .seed {
+    animation: rotate 3s ease-out forwards;
+    animation-delay: 4.5s;
+  }
+  
+  .seed-wrapper.outter:nth-child(15):nth-child(2n-1) {
+    animation: fly-away 4.5s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 4.5s;
+  }
+  .seed-wrapper.outter:nth-child(15):nth-child(2n-1) .inner {
+    animation: fly-up 4.5s ease-in-out forwards;
+    animation-delay: 4.5s;
+  }
+  .seed-wrapper.outter:nth-child(15):nth-child(2n-1) .seed {
+    animation: rotate 3s ease-out forwards;
+    animation-delay: 4.5s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(15) {
+    animation: fly-away 4.2s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 4.7s;
+  }
+  .seed-wrapper.outter:nth-last-child(15) .inner {
+    animation: fly-up 5.75s ease-in-out forwards;
+    animation-delay: 4.7s;
+  }
+  .seed-wrapper.outter:nth-last-child(15) .seed {
+    animation: rotate-rev 2.5s ease-out forwards;
+    animation-delay: 4.7s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(15) {
+    animation: fly-away 6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 6.2s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(15) .inner {
+    animation: fly-up 5.25s ease-in-out forwards;
+    animation-delay: 6.2s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(15) .seed {
+    animation: rotate-rev 2.5s ease-out forwards;
+    animation-delay: 6.2s;
+  }
+  
+  .seed-wrapper.outter:nth-child(16) {
+    animation: fly-away 5.4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 4.8s;
+  }
+  .seed-wrapper.outter:nth-child(16) .inner {
+    animation: fly-up 6.2s ease-in-out forwards;
+    animation-delay: 4.8s;
+  }
+  .seed-wrapper.outter:nth-child(16) .seed {
+    animation: rotate 3.1s ease-out forwards;
+    animation-delay: 4.8s;
+  }
+  
+  .seed-wrapper.outter:nth-child(16):nth-child(2n-1) {
+    animation: fly-away 4.4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 4.8s;
+  }
+  .seed-wrapper.outter:nth-child(16):nth-child(2n-1) .inner {
+    animation: fly-up 4.6s ease-in-out forwards;
+    animation-delay: 4.8s;
+  }
+  .seed-wrapper.outter:nth-child(16):nth-child(2n-1) .seed {
+    animation: rotate 3.1s ease-out forwards;
+    animation-delay: 4.8s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(16) {
+    animation: fly-away 4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5s;
+  }
+  .seed-wrapper.outter:nth-last-child(16) .inner {
+    animation: fly-up 5.9s ease-in-out forwards;
+    animation-delay: 5s;
+  }
+  .seed-wrapper.outter:nth-last-child(16) .seed {
+    animation: rotate-rev 2.6s ease-out forwards;
+    animation-delay: 5s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(16) {
+    animation: fly-away 5.9s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 6.6s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(16) .inner {
+    animation: fly-up 5.4s ease-in-out forwards;
+    animation-delay: 6.6s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(16) .seed {
+    animation: rotate-rev 2.6s ease-out forwards;
+    animation-delay: 6.6s;
+  }
+  
+  .seed-wrapper.outter:nth-child(17) {
+    animation: fly-away 5.3s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5.1s;
+  }
+  .seed-wrapper.outter:nth-child(17) .inner {
+    animation: fly-up 6.4s ease-in-out forwards;
+    animation-delay: 5.1s;
+  }
+  .seed-wrapper.outter:nth-child(17) .seed {
+    animation: rotate 3.2s ease-out forwards;
+    animation-delay: 5.1s;
+  }
+  
+  .seed-wrapper.outter:nth-child(17):nth-child(2n-1) {
+    animation: fly-away 4.3s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5.1s;
+  }
+  .seed-wrapper.outter:nth-child(17):nth-child(2n-1) .inner {
+    animation: fly-up 4.7s ease-in-out forwards;
+    animation-delay: 5.1s;
+  }
+  .seed-wrapper.outter:nth-child(17):nth-child(2n-1) .seed {
+    animation: rotate 3.2s ease-out forwards;
+    animation-delay: 5.1s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(17) {
+    animation: fly-away 3.8s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5.3s;
+  }
+  .seed-wrapper.outter:nth-last-child(17) .inner {
+    animation: fly-up 6.05s ease-in-out forwards;
+    animation-delay: 5.3s;
+  }
+  .seed-wrapper.outter:nth-last-child(17) .seed {
+    animation: rotate-rev 2.7s ease-out forwards;
+    animation-delay: 5.3s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(17) {
+    animation: fly-away 5.8s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 7s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(17) .inner {
+    animation: fly-up 5.55s ease-in-out forwards;
+    animation-delay: 7s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(17) .seed {
+    animation: rotate-rev 2.7s ease-out forwards;
+    animation-delay: 7s;
+  }
+  
+  .seed-wrapper.outter:nth-child(18) {
+    animation: fly-away 5.2s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5.4s;
+  }
+  .seed-wrapper.outter:nth-child(18) .inner {
+    animation: fly-up 6.6s ease-in-out forwards;
+    animation-delay: 5.4s;
+  }
+  .seed-wrapper.outter:nth-child(18) .seed {
+    animation: rotate 3.3s ease-out forwards;
+    animation-delay: 5.4s;
+  }
+  
+  .seed-wrapper.outter:nth-child(18):nth-child(2n-1) {
+    animation: fly-away 4.2s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5.4s;
+  }
+  .seed-wrapper.outter:nth-child(18):nth-child(2n-1) .inner {
+    animation: fly-up 4.8s ease-in-out forwards;
+    animation-delay: 5.4s;
+  }
+  .seed-wrapper.outter:nth-child(18):nth-child(2n-1) .seed {
+    animation: rotate 3.3s ease-out forwards;
+    animation-delay: 5.4s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(18) {
+    animation: fly-away 3.6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5.6s;
+  }
+  .seed-wrapper.outter:nth-last-child(18) .inner {
+    animation: fly-up 6.2s ease-in-out forwards;
+    animation-delay: 5.6s;
+  }
+  .seed-wrapper.outter:nth-last-child(18) .seed {
+    animation: rotate-rev 2.8s ease-out forwards;
+    animation-delay: 5.6s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(18) {
+    animation: fly-away 5.7s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 7.4s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(18) .inner {
+    animation: fly-up 5.7s ease-in-out forwards;
+    animation-delay: 7.4s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(18) .seed {
+    animation: rotate-rev 2.8s ease-out forwards;
+    animation-delay: 7.4s;
+  }
+  
+  .seed-wrapper.outter:nth-child(19) {
+    animation: fly-away 5.1s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5.7s;
+  }
+  .seed-wrapper.outter:nth-child(19) .inner {
+    animation: fly-up 6.8s ease-in-out forwards;
+    animation-delay: 5.7s;
+  }
+  .seed-wrapper.outter:nth-child(19) .seed {
+    animation: rotate 3.4s ease-out forwards;
+    animation-delay: 5.7s;
+  }
+  
+  .seed-wrapper.outter:nth-child(19):nth-child(2n-1) {
+    animation: fly-away 4.1s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5.7s;
+  }
+  .seed-wrapper.outter:nth-child(19):nth-child(2n-1) .inner {
+    animation: fly-up 4.9s ease-in-out forwards;
+    animation-delay: 5.7s;
+  }
+  .seed-wrapper.outter:nth-child(19):nth-child(2n-1) .seed {
+    animation: rotate 3.4s ease-out forwards;
+    animation-delay: 5.7s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(19) {
+    animation: fly-away 3.4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 5.9s;
+  }
+  .seed-wrapper.outter:nth-last-child(19) .inner {
+    animation: fly-up 6.35s ease-in-out forwards;
+    animation-delay: 5.9s;
+  }
+  .seed-wrapper.outter:nth-last-child(19) .seed {
+    animation: rotate-rev 2.9s ease-out forwards;
+    animation-delay: 5.9s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(19) {
+    animation: fly-away 5.6s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 7.8s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(19) .inner {
+    animation: fly-up 5.85s ease-in-out forwards;
+    animation-delay: 7.8s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(19) .seed {
+    animation: rotate-rev 2.9s ease-out forwards;
+    animation-delay: 7.8s;
+  }
+  
+  .seed-wrapper.outter:nth-child(20) {
+    animation: fly-away 5s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 6s;
+  }
+  .seed-wrapper.outter:nth-child(20) .inner {
+    animation: fly-up 7s ease-in-out forwards;
+    animation-delay: 6s;
+  }
+  .seed-wrapper.outter:nth-child(20) .seed {
+    animation: rotate 3.5s ease-out forwards;
+    animation-delay: 6s;
+  }
+  
+  .seed-wrapper.outter:nth-child(20):nth-child(2n-1) {
+    animation: fly-away 4s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 6s;
+  }
+  .seed-wrapper.outter:nth-child(20):nth-child(2n-1) .inner {
+    animation: fly-up 5s ease-in-out forwards;
+    animation-delay: 6s;
+  }
+  .seed-wrapper.outter:nth-child(20):nth-child(2n-1) .seed {
+    animation: rotate 3.5s ease-out forwards;
+    animation-delay: 6s;
+  }
+  
+  .seed-wrapper.outter:nth-last-child(20) {
+    animation: fly-away 3.2s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 6.2s;
+  }
+  .seed-wrapper.outter:nth-last-child(20) .inner {
+    animation: fly-up 6.5s ease-in-out forwards;
+    animation-delay: 6.2s;
+  }
+  .seed-wrapper.outter:nth-last-child(20) .seed {
+    animation: rotate-rev 3s ease-out forwards;
+    animation-delay: 6.2s;
+  }
+  
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(20) {
+    animation: fly-away 5.5s cubic-bezier(0.265, 0.025, 0.495, 1.39) forwards;
+    animation-delay: 8.2s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(20) .inner {
+    animation: fly-up 6s ease-in-out forwards;
+    animation-delay: 8.2s;
+  }
+  .seed-wrapper.outter:nth-child(3n):nth-last-child(20) .seed {
+    animation: rotate-rev 3s ease-out forwards;
+    animation-delay: 8.2s;
+  }
+  
+  @keyframes fly-away {
+    to {
+      transform: translateX(calc(70vw)) scale(0);
+    }
+  }
+  @keyframes fly-up {
+    0% {
+      transform: translateY(0);
+    }
+    30% {
+      transform: translateY(-30vh);
+    }
+    50% {
+      transform: translateY(-25vh);
+    }
+    100% {
+      transform: translateY(-200vh);
+    }
+  }
+  @keyframes rotate {
+    to {
+      transform: rotate(0);
+    }
+  }
+  @keyframes rotate-rev {
+    to {
+      transform: rotate(360deg);
+    }
+  }
